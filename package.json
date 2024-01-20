@@ -1,5 +1,5 @@
 {
-  "name": "beyerle.in-website",
+  "name": "beyerlein-website",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr": "node dist/beyerle.in-website/server/server.mjs"
+    "serve:ssr": "node dist/beyerlein-website/server/server.mjs"
   },
   "private": true,
   "dependencies": {

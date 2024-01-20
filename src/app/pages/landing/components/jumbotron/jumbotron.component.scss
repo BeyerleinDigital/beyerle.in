@@ -1,0 +1,44 @@
+@use "colors" as *;
+
+.jumbotron {
+  background: linear-gradient(rgba(0, 101, 224, 0.55), rgba(0, 101, 224, 0.55)),
+    url("/assets/img/jumbotron-background4.jpg");
+  background-size: cover;
+  background-position: center;
+  color: $contrast;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  height: calc(100vh - 86px);
+}
+
+.jumbotron-content {
+  text-align: center;
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .subtext {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.btn-cta {
+  background-color: $highlight;
+  color: $primary;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($highlight, 10%);
+  }
+}
