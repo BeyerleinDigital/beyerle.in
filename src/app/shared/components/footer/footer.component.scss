@@ -1,0 +1,48 @@
+@use "colors" as *;
+@use "mixins" as *;
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 24px;
+  text-align: center;
+  font-size: 14px;
+  color: $secondary;
+  margin-top: 24px;
+
+  @include mobile {
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px 0;
+  }
+
+  .legal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+
+    a {
+      color: $secondary;
+      text-decoration: none;
+      font-weight: bold;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 8px;
+      border-radius: 4px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        color: $contrast;
+        background-color: $secondary;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+}

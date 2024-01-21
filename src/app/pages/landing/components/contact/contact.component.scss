@@ -5,21 +5,21 @@
   max-width: 600px;
   margin: auto;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 32px 16px;
 
   @include mobile {
-    padding: 2rem 2rem;
+    padding: 32px 32px;
   }
 
   .section-title {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
     color: $primary;
   }
 
   .text {
     font-size: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 20px;
   }
 
   .contact-methods {
@@ -28,9 +28,9 @@
       align-items: center;
       background-color: $contrast;
       color: $secondary;
-      padding: 0.75rem 1.5rem;
-      margin: 0.5rem;
-      border-radius: 5px;
+      padding: 12px 20px;
+      margin: 8px;
+      border-radius: 4px;
       text-decoration: none;
       transition: background-color 0.3s ease;
 
@@ -39,7 +39,7 @@
       }
 
       .icon {
-        margin-right: 0.5rem;
+        margin-right: 8px;
         stroke: $secondary;
         fill: none;
         stroke-linecap: round;

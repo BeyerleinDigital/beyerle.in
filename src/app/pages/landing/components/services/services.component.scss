@@ -6,22 +6,22 @@
     max-width: 800px;
     margin: auto;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 32px 16px;
 
     @include mobile {
-      padding: 2rem 2rem;
+      padding: 32px 32px;
     }
 
     .section-title {
       font-size: 2rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 20px;
       color: $primary;
     }
 
     .services-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
+      gap: 16px;
       cursor: default;
 
       @include mobile {
@@ -30,8 +30,8 @@
 
       .service-item {
         background-color: $contrast;
-        padding: 1rem;
-        border-radius: 10px;
+        padding: 16px;
+        border-radius: 8px;
         transition: all 0.3s ease-in-out;
         text-align: left;
 
@@ -67,7 +67,7 @@
             stroke-width: 2;
             width: 50px;
             height: 50px;
-            margin: 0 auto 0.5rem auto;
+            margin: 0 auto 8px auto;
             transition: all 0.3s ease-in-out;
           }
         }
