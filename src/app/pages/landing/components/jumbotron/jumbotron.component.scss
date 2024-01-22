@@ -15,6 +15,7 @@
 
   .jumbo-img {
     grid-area: 1/1;
+    min-height: 0;
 
     img {
       width: 100%;
@@ -28,6 +29,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     grid-area: 1/1;
 
     .title {
