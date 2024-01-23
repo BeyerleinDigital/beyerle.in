@@ -12,7 +12,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "serve:ssr": "node dist/beyerlein-website/server/server.mjs"
+    "serve:ssr": "node dist/beyerlein-website/server/server.mjs",
+    "release": " npx standard-version"
   },
   "private": true,
   "dependencies": {
